@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="QAClick.listeners"/>
+    <listener class-name="resources.ExtentReporterNG"/>
+  </listeners>
+  <test name="Home Page Navigation(failed)">
+    <classes>
+      <class name="QAClick.HomePageTest">
+        <methods>
+          <include name="initialize"/>
+          <include name="HomePageNavigation"/>
+        </methods>
+      </class> <!-- QAClick.HomePageTest -->
+      <class name="QAClick.ValidateTitle">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- QAClick.ValidateTitle -->
+      <class name="QAClick.LoginTest">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- QAClick.LoginTest -->
+    </classes>
+  </test> <!-- Home Page Navigation(failed) -->
+  <test name="Validating Title(failed)">
+    <classes>
+      <class name="QAClick.ValidateTitle">
+        <methods>
+          <include name="initialize"/>
+          <include name="HomePageNavigation"/>
+        </methods>
+      </class> <!-- QAClick.ValidateTitle -->
+      <class name="QAClick.HomePageTest">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- QAClick.HomePageTest -->
+      <class name="QAClick.LoginTest">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- QAClick.LoginTest -->
+    </classes>
+  </test> <!-- Validating Title(failed) -->
+  <test name="Login Test(failed)">
+    <classes>
+      <class name="QAClick.ValidateTitle">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- QAClick.ValidateTitle -->
+      <class name="QAClick.HomePageTest">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- QAClick.HomePageTest -->
+      <class name="QAClick.LoginTest">
+        <methods>
+          <include name="initialize"/>
+          <include name="HomePageNavigation"/>
+        </methods>
+      </class> <!-- QAClick.LoginTest -->
+    </classes>
+  </test> <!-- Login Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

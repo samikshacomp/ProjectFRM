@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<listeners>
+		<listener class-name="QAClick.listeners" />
+		<listener class-name="resources.ExtentReporterNG"/>
+    </listeners>
+
+	<test name="Home Page Navigation">
+		<classes>
+			<class name="QAClick.HomePageTest" />
+		</classes>
+	</test>
+
+	<test name="Validating Title">
+		<classes>
+			<class name="QAClick.ValidateTitle" />
+		</classes>
+	</test>
+
+	<test name="Login Test">
+		<classes>
+			<class name="QAClick.LoginTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

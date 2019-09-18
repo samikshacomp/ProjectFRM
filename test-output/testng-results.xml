@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="73589" started-at="2019-09-13T01:40:04Z" finished-at="2019-09-13T01:41:17Z">
+    <groups>
+    </groups>
+    <test name="Home Page Navigation" duration-ms="23121" started-at="2019-09-13T01:40:04Z" finished-at="2019-09-13T01:40:27Z">
+      <class name="QAClick.HomePageTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:QAClick.HomePageTest@159a598]" name="initialize" is-config="true" duration-ms="12657" started-at="2019-09-13T07:10:04Z" finished-at="2019-09-13T07:10:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="HomePageNavigation()[pri:0, instance:QAClick.HomePageTest@159a598]" name="HomePageNavigation" duration-ms="10281" started-at="2019-09-13T07:10:17Z" finished-at="2019-09-13T07:10:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageNavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:QAClick.HomePageTest@159a598]" name="teardown" is-config="true" duration-ms="152" started-at="2019-09-13T07:10:27Z" finished-at="2019-09-13T07:10:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- QAClick.HomePageTest -->
+    </test> <!-- Home Page Navigation -->
+    <test name="Validating Title" duration-ms="15276" started-at="2019-09-13T01:40:27Z" finished-at="2019-09-13T01:40:42Z">
+      <class name="QAClick.ValidateTitle">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:QAClick.ValidateTitle@98ac89]" name="initialize" is-config="true" duration-ms="10690" started-at="2019-09-13T07:10:27Z" finished-at="2019-09-13T07:10:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="HomePageNavigation()[pri:0, instance:QAClick.ValidateTitle@98ac89]" name="HomePageNavigation" duration-ms="256" started-at="2019-09-13T07:10:38Z" finished-at="2019-09-13T07:10:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageNavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:QAClick.ValidateTitle@98ac89]" name="teardown" is-config="true" duration-ms="4324" started-at="2019-09-13T07:10:38Z" finished-at="2019-09-13T07:10:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- QAClick.ValidateTitle -->
+    </test> <!-- Validating Title -->
+    <test name="Login Test" duration-ms="35145" started-at="2019-09-13T01:40:42Z" finished-at="2019-09-13T01:41:17Z">
+      <class name="QAClick.LoginTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:QAClick.LoginTest@1cdc6d]" name="initialize" is-config="true" duration-ms="3682" started-at="2019-09-13T07:10:42Z" finished-at="2019-09-13T07:10:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="HomePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:QAClick.LoginTest@1cdc6d]" name="HomePageNavigation" duration-ms="20266" started-at="2019-09-13T07:10:46Z" data-provider="getData" finished-at="2019-09-13T07:11:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[yogmadhur@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[yogesh]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Your mailid not registred with QA Click Academy..]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageNavigation -->
+        <test-method status="PASS" signature="HomePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:QAClick.LoginTest@1cdc6d]" name="HomePageNavigation" duration-ms="11068" started-at="2019-09-13T07:11:06Z" data-provider="getData" finished-at="2019-09-13T07:11:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[yogeshthorat83@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[yogesh]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Your mailid not registred with QA Click Academy..]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageNavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:QAClick.LoginTest@1cdc6d]" name="teardown" is-config="true" duration-ms="118" started-at="2019-09-13T07:11:17Z" finished-at="2019-09-13T07:11:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- QAClick.LoginTest -->
+    </test> <!-- Login Test -->
+  </suite> <!-- Suite -->
+</testng-results>

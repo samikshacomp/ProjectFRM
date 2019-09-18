@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 3, Errors: 0, Skipped: 7, Time elapsed: 3.595 s <<< FAILURE! - in TestSuite
+initialize(QAClick.HomePageTest)  Time elapsed: 2.689 s  <<< FAILURE!
+java.io.FileNotFoundException: C:\Users\Yogesh\Project\src\main\java\resources\data.properties (The system cannot find the path specified)
+	at QAClick.HomePageTest.initialize(HomePageTest.java:19)
+
+initialize(QAClick.ValidateTitle)  Time elapsed: 0.028 s  <<< FAILURE!
+java.io.FileNotFoundException: C:\Users\Yogesh\Project\src\main\java\resources\data.properties (The system cannot find the path specified)
+	at QAClick.ValidateTitle.initialize(ValidateTitle.java:20)
+
+initialize(QAClick.LoginTest)  Time elapsed: 0.008 s  <<< FAILURE!
+java.io.FileNotFoundException: C:\Users\Yogesh\Project\src\main\java\resources\data.properties (The system cannot find the path specified)
+	at QAClick.LoginTest.initialize(LoginTest.java:19)
+
